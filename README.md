@@ -1,4 +1,10 @@
 # FakeGPS
+# Modifications from xSnowHeadx's repo
+- Support for HC-SR501 PIR sensors
+- Sets time to 00:00 after pre-defined PIR timeout
+- This in combination with a short 'blackout' range specified on clock itself between 00:00-00:30, can have the clock auto-blank after timeout with no presence detected
+- Sets correct time once presence detected
+
 # ESP8266-timeserver for Nixie-clocks from PV Electronics
 https://github.com/xSnowHeadx/FakeGPS  
 README file  
